@@ -46,6 +46,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 90%; /* Adjusting container width */
     max-width: 400px; /* Setting max-width for better control */
+    text-align: center;
 }
 
 button {
