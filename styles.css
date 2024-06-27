@@ -84,6 +84,7 @@ button {
     margin-top: 10px;
     background-color: #EEEEEE; /* Light grey color */
     color: #000;
+    text-align: center;
 }
 
 .input-box button {
@@ -119,6 +120,7 @@ button {
     color: #FFFFFF;
     animation: slideUpDown 5s ease-in-out;
     animation-fill-mode: forwards;
+    text-align: center;
 }
 
 @keyframes slideUpDown {
