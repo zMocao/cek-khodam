@@ -44,7 +44,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 80%; /* Adjusting container width */
+    width: 90%; /* Adjusting container width */
     max-width: 400px; /* Setting max-width for better control */
 }
 
