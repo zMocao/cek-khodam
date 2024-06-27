@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'f1';
+    src: url('font/LuckiestGuy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'f2';
+    src: url('font/GOTHICB0.ttf') format('truetype');
+}
+
+body {
+    font-family: 'f2', Arial, sans-serif;
+    background-color: #212832; /* Dark color */
+    background-image: url('img/bg3.gif'); /* Ganti 'path-to-your-image.png' dengan path file gambar PNG Anda */
+    background-size: cover; /* Atur agar gambar mengisi seluruh area background */
+    color: #EEEEEE; /* Light grey color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header-box {
+    background-color: rgba(117, 171, 173, 0.8);
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.header {
+  font-family: 'f2', Arial, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    font-family: 'f2', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8); /* White color with 80% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%; /* Adjusting container width */
+    max-width: 400px; /* Setting max-width for better control */
+}
+
+button {
+    font-family: 'f2', Arial, sans-serif;
+}
+
+.result-box {
+    background-color: black; /* Light grey color */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.input-box {
+    background-color: #75ABAD; /* Light teal color */
+    color: #000;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.input-box input {
+    width: 90%; /* Full width */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+    background-color: #EEEEEE; /* Light grey color */
+    color: #000;
+}
+
+.input-box button {
+    width: 98%; /* Full width */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+    background-color: #FFFFFF; /* White color */
+    color: #212832; /* Dark color */
+    cursor: pointer;
+}
+
+.input-box button:hover {
+    background-color: #EEEEEE; /* Light grey color */
+}
+
+.show-result {
+    opacity: 1;
+}
+
+.input-box label {
+    color: #FFFFFF; /* Ganti warna sesuai keinginan */
+}
+
+.footer {
+    position: fixed;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    animation: slideUpDown 5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideUpDown {
+    0% {
+        bottom: -50px;
+    }
+    10% {
+        bottom: 20px;
+    }
+    90% {
+        bottom: 20px;
+    }
+    100% {
+        bottom: -50px;
+    }
+}
